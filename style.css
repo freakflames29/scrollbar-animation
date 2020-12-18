@@ -1,0 +1,40 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar
+{
+    width: 0;
+}
+section
+{
+    padding: 100px;
+    background: #000;
+    font-family: arial , sans-serif;
+}
+h2
+{
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+p
+{
+    color: #fff;
+    font-size: 1.6em;
+}
+#pregressBar
+{
+    position: fixed;
+    /* height: 100%; */
+    top: 0;
+    right: 0;
+    width: 15px;
+    border-radius: 0px 0px 5px 5px;;
+    background: linear-gradient(to top,,#00f83e,#3cf54b,#92ff67);
+}
